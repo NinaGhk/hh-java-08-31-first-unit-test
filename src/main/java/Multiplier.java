@@ -6,10 +6,11 @@ public class Multiplier {
         int firstNumber = 5;
         int secondNumber = 44;
 
-        int result = Multiplier(firstNumber, secondNumber);
+        int result = multiplier(firstNumber, secondNumber);
+        System.out.println(result);
        }
 
-    public static int multiply(int value1,int value2) {
+    public static int multiplier(int value1,int value2) {
          return value1*value2;
     }
 
