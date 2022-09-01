@@ -15,6 +15,6 @@ public class MultiplierTest {
          int x= Multiplier.multiplier(number1, number2);
 
        //THEN
-          assertEquals(220,x);
+          assertEquals(220,);
       }
 }
