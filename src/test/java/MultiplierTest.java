@@ -9,12 +9,12 @@ public class MultiplierTest {
        void MultiplierTest(){
        //Given
           int number1 = 5;
-          int number2 = 44;
+          int number2 = 33;
 
         // WHEN
          int x= Multiplier.multiplier(number1, number2);
 
        //THEN
-          assertEquals(220,);
+          assertEquals(220,x);
       }
 }
